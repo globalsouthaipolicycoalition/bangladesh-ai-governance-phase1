@@ -40,3 +40,13 @@
 ## Release boundary
 
 কোনো Production publish/deploy, shared/production database mutation, বা destructive migration করবেন না যতক্ষণ না user নির্দিষ্টভাবে অনুমোদন দেন। UI/API mocks-সহ preview “feature/UI review” হতে পারে, কিন্তু সেটিকে 100% secure, persistent বা production-ready system বলবেন না।
+
+
+## Current execution update — 2026-11-13
+
+- [x] Public GitHub repository created: `globalsouthaipolicycoalition/bangladesh-ai-governance-phase1`; source and connection/migration documentation pushed to `main`.
+- [x] Supabase project created in `globalsouthaipolicycoalition's Org`, Singapore region (`ap-southeast-1`), ref `ytjuewyomyswvgnibqeq`; project is `ACTIVE_HEALTHY` and the public schema is empty.
+- [x] Local dependencies installed from the frozen lockfile; `pnpm check` passed; 12 test files and 59 tests passed; 4 authenticated staging tests remain skipped; Bangladesh catalogue verification passed with 16 controls and 8 sources; production build passed.
+- [x] Feature audit and Bengali tutorial created at `PROJECT_FEATURE_AUDIT_AND_TUTORIAL_BN_2026-11-13.md`.
+- [ ] Vercel integration intentionally deferred by user; no Vercel project or deployment was created.
+- [ ] Supabase Auth/PostgreSQL runtime replacement remains gated on identity design, schema/RLS plan, protected credentials, data-preservation plan, and authenticated non-production verification.
