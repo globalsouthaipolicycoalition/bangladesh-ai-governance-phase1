@@ -1,0 +1,1 @@
+ALTER TABLE `incident_events` MODIFY COLUMN `eventType` enum('created','updated','triaged','status_changed','evidence_added','evidence_link_issued','comment','closed') NOT NULL;

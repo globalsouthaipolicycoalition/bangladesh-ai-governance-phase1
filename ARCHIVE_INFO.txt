@@ -1,0 +1,5 @@
+Bangladesh AI Observatory portable handoff
+Source baseline: Manus project main, commit 3553ded
+Includes: application source/config/docs, AI_START_HERE.md, Vercel deployment/update guide, Vercel variable names checklist, GitHub CI quality workflow, and remaining TODO.
+Excludes: Git history, dependencies, build output, runtime logs, .env files, secret values, and Manus-only resource metadata.
+The package does not connect GitHub/Vercel accounts and does not perform deployment.
